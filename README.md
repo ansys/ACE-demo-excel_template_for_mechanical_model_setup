@@ -1,5 +1,5 @@
 # ACE-demo-excel_template_for_mechanical_model_setup
-![ACE] | Using an Excel file to modify a model setup in Mechanical: 
+<span style="background-color: #004B87; color: white; padding: 2px 6px; border-radius: 3px; font-weight: bold;">ACE</span> | Using an Excel file to modify a model setup in Mechanical:
 
 This repository provides the code to a demo of using an Excel file to modify a model setup in Mechanical. Several features are exposed:
 - Generic contact settings: The values defined in this tab will modify all contacts of specific type. Ie, all "bonded" contacts will receive the settings provided in line 2 of this Excel tab.

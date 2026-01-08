@@ -27,4 +27,9 @@ This repository provides the code to a demo of using an Excel file to modify a m
   - For force and displacement convergence, entering '0' value will set 'Calculated by solver'.
   - Make sure to change the unit system if needed so that the values entered are understood in the appropriate unit.
 
-
+##  How to use this code:
+  - Place all files in a same folder.
+  - In Mechanical, open Mechanical scripting console and open the main file (ie, template_model_setup_main.py), and run this file. 
+  - All other Python files are modules that will be imported/used when the main code is ran.
+  - Running the main file from Mechanical will open a file browser for the user to select the Excel file that they want to use.
+  - The xlsx file can be actually placed elsewhere to the code, to modify which folder the file browser opens by default, modify line 29 of main.py.

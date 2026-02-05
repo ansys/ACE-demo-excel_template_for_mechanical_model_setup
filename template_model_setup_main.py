@@ -4,7 +4,7 @@
 
 import sys
 import os
-CodePath = os.getcwd
+CodePath = os.getcwd() # or replace by any path you would like to use to point to the code
 if not CodePath in sys.path:
     sys.path.append(CodePath)
 
